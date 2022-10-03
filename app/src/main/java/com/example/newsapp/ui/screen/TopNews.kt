@@ -52,9 +52,9 @@ fun TopNewsItem(newsData: NewsData, onNewsClick: () -> Unit = {}) {
                 .padding(top = 16.dp, start = 16.dp),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
-            Text(text = newsData.publishedAt, color = Color.Black, fontWeight = FontWeight.SemiBold)
+            Text(text = newsData.publishedAt, color = Color.White, fontWeight = FontWeight.SemiBold)
             Spacer(modifier = Modifier.height(80.dp))
-            Text(text = newsData.title, color = Color.Black, fontWeight = FontWeight.SemiBold)
+            Text(text = newsData.title, color = Color.White, fontWeight = FontWeight.SemiBold)
         }
     }
 }
