@@ -23,7 +23,6 @@ import com.example.newsapp.model.NewsData
 @Composable
 fun TopNews(navController: NavController) {
     Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(text = "Top News", fontWeight = FontWeight.SemiBold)
         LazyColumn() {
             items(MockData.topNewsList) { newsData ->
                 TopNewsItem(newsData = newsData, onNewsClick = {
