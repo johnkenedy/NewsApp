@@ -1,7 +1,6 @@
 package com.example.newsapp
 
 import android.os.Build
-import com.example.newsapp.model.NewsData
 import java.text.SimpleDateFormat
 import java.util.*
 

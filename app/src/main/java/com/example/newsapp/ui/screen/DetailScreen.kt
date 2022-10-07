@@ -24,7 +24,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.newsapp.MockData
 import com.example.newsapp.MockData.getTimeAgo
 import com.example.newsapp.R
-import com.example.newsapp.model.NewsData
+import com.example.newsapp.NewsData
 
 @Composable
 fun DetailScreen(navController: NavController, newsData: NewsData, scrollState: ScrollState) {

@@ -1,4 +1,4 @@
-package com.example.newsapp.model
+package com.example.newsapp
 
 import com.example.newsapp.R
 

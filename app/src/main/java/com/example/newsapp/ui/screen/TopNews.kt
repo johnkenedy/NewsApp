@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.newsapp.MockData
 import com.example.newsapp.MockData.getTimeAgo
-import com.example.newsapp.model.NewsData
+import com.example.newsapp.NewsData
 
 @Composable
 fun TopNews(navController: NavController) {
